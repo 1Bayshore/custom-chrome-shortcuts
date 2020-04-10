@@ -1,0 +1,19 @@
+{
+    "name": "Custom Chrome Shortcuts",
+    "version": "0.1",
+    "description": "Allows for the creation of custom chrome shortcuts.",
+    "background": {
+        "scripts": ["background.js"],
+        "persistant": false
+    },
+    "page_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "http://*/",
+        "https://*/"
+    ],
+    "manifest_version": 2
+}
